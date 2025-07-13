@@ -13,5 +13,5 @@ services:
       - "${JACKETT_CONFIG}:/config"
       - "${JACKETT_DOWNLOADS}:/downloads"
     ports:
-      - "${JACKET_PORT}:9117"
+      - "${JACKETT_PORT}:9117"
     restart: unless-stopped
